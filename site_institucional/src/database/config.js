@@ -5,8 +5,8 @@ var sql = require('mssql');
 var sqlServerConfig = {
     server: "SEU_SERVIDOR",
     database: "SEU_BANCO_DE_DADOS",
-    user: "SEU_USUARIO",
-    password: "SUA_SENHA",
+    user: "root",
+    password: "SUAA",
     pool: {
         max: 10,
         min: 0,
@@ -20,9 +20,9 @@ var sqlServerConfig = {
 // CONEXÃO DO MYSQL WORKBENCH (LOCAL)
 var mySqlConfig = {
     host: "localhost",
-    database: "SEU_DATABASE",
-    user: "SEU_USUARIO",
-    password: "SUA_SENHA",
+    database: "airData",
+    user: "root",
+    password: "O@kami261004",
 };
 
 function executar(instrucao) {

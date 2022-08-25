@@ -422,132 +422,157 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# exa Section
 --------------------------------------------------------------*/
-#hero {
+#exa {
   width: 100%;
-  height: 75vh;
-  background: url("../img/torre.jpg") top left;
-  background-size: cover;
-  position: relative;
-}
-
-
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .container {
-  position: relative;
-}
-
-#hero h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-}
-
-#hero h1 span {
-  color: #106eea;
-}
-
-#hero h2 {
-  color: #ffffff;
-  margin: 5px 0 30px 0;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-#hero .btn-get-started,
-#main .btn-get-started {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #106eea;
-}
-
-#hero .btn-get-started:hover,
-#main .btn-get-started:hover {
-  background: #247cf0;
-}
-
-#hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: #222222;
-  font-weight: 600;
+  height: 100vh;
+  text-align: center;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: -10vh;
 }
 
-#hero .btn-watch-video i {
-  color: #106eea;
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-#hero .btn-watch-video:hover {
-  color: #106eea;
-}
-
-#hero .btn-watch-video:hover i {
-  color: #3b8af2;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero {
-    height: 100vh;
-  }
-
-  #hero h1 {
-    font-size: 28px;
+  #exa h1 {
+    font-size: 38px;
     line-height: 36px;
+    color: #106eea;
+    margin-bottom: 7vh;
   }
 
-  #hero h2 {
+  #exa h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  #hero .btn-get-started,
+  #exa .btn-get-started,
   #main .btn-get-started,
-  #hero .btn-watch-video {
+  #exa .btn-watch-video {
     font-size: 13px;
-  }
 }
 
+
 @media (max-height: 500px) {
-  #hero {
+  #exa {
     height: 120vh;
   }
 }
+
+/*--------------------------------------------------------------
+# info Section
+--------------------------------------------------------------*/
+#info {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: -40vh;
+}
+  #info container{
+    width: 100%;
+  }
+  #info h1 {
+    font-size: 25px;
+    color: #222222;
+    width: 100%;
+    text-align: center;
+  }
+
+  #info h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #info .btn-get-started,
+  #main .btn-get-started,
+  #info .btn-watch-video {
+    font-size: 13px;
+
+  
+}
+
+#bloco1{
+  margin-left: -20vw;
+  margin-top: 5vh;
+  background-color: #3284f1;
+}
+#bloco2{
+  margin-left: 20vw;
+  margin-top: -13vh;
+  background-color: #0253c4;
+}
+
+.bloco{
+  height: fit-content;
+  width: fit-content;
+  padding: 1vh;
+}
+.bloco img{
+  width: 40vw;
+}
+
+@media (max-height: 500px) {
+  #info {
+    height: 120vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# exa Section
+--------------------------------------------------------------*/
+#conc {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: -20vh;
+}
+
+  #conc h1 {
+    font-size: 25px;
+    line-height: 36px;
+    color: #222222;
+  }
+
+  #conc h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #conc .btn-get-started,
+  #main .btn-get-started,
+  #conc .btn-watch-video {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+}
+
+#conc .btn-get-started:hover {
+  background: #247cf0;
+}
+
+@media (max-height: 500px) {
+  #conc {
+    height: 120vh;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -653,7 +678,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/dentroTorre.JPG") no-repeat;
+  background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -666,7 +691,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .testimonials .section-header {
@@ -864,12 +889,12 @@ section {
   margin-bottom: 0;
 }
 
-.contact .email-form {
+.contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
   padding: 30px;
 }
 
-.contact .email-form .error-message {
+.contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -878,11 +903,11 @@ section {
   font-weight: 600;
 }
 
-.contact .email-form .error-message br+br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .email-form .sent-message {
+.contact .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -891,14 +916,14 @@ section {
   font-weight: 600;
 }
 
-.contact .email-form .loading {
+.contact .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .email-form .loading:before {
+.contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -911,34 +936,31 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .email-form .form-group {
+.contact .php-email-form .form-group {
   margin-bottom: 20px;
 }
 
-.contact .email-form input,
-.contact .email-form select,
-.contact .email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .email-form input:focus,
-.contact .email-form select:focus,
-.contact .email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #106eea;
 }
 
-.contact .email-form input,
-.contact .email-form select {
+.contact .php-email-form input {
   padding: 10px 15px;
 }
 
-.contact .email-form textarea {
+.contact .php-email-form textarea {
   padding: 12px 15px;
 }
 
-.contact .email-form button[type=submit] {
+.contact .php-email-form button[type=submit] {
   background: #106eea;
   border: 0;
   padding: 10px 30px;
@@ -947,7 +969,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .email-form button[type=submit]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #3b8af2;
 }
 
@@ -970,86 +992,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
-/*--------------------------------------------------------------
-# Button Sign Up & Sign In
---------------------------------------------------------------*/
-
-.text-center button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  background-color: #247cf0;
-  color: rgb(255, 255, 255);
-  border: none;
-}
-
-/*--------------------------------------------------------------
-# Sign In
---------------------------------------------------------------*/
-
-.roww {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flow-root;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
-}
-
-.contact .emaill-form input,
-.contact .emaill-form select,
-.contact .emaill-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  margin-left: 265px;
-}
-
-.contact .emaill-form input:focus,
-.contact .emaill-form select:focus,
-.contact .emaill-form textarea:focus {
-  border-color: #106eea;
-}
-
-.contact .emaill-form input,
-.contact .emaill-form select {
-  padding: 10px 15px;
-}
-
-.contact .emaill-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .emaill-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
-  padding: 30px;
-}
-
-.contact .emaill-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .emaill-form .form-group {
-  margin-bottom: 20px;
-}
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -1240,4 +1182,16 @@ section {
 
 ::-webkit-scrollbar-thumb {
   background: #0253c4;
+}
+
+
+
+
+
+
+
+
+
+#computer{
+  height: 50vh;
 }
